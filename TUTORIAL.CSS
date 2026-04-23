@@ -1,10 +1,129 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-h1 {
-    color: #333;
+
+img{
+    max-width: 100%;
 }
-p {
-    font-size: 16px;
-}   
+a{
+    text-decoration: none;
+}
+.btn{
+    display: block;
+    width: 100%;
+    background-color: aquamarine;
+    color: black;
+    border-radius: 10px;
+}
+.btn:hover{
+     background-color: aqua;
+}
+header{
+    text-align: center;
+    padding: 10px;
+}
+
+nav a{
+    background-color: #003C5C;
+    color: white;
+    padding: 5px;
+    display: block;
+    margin: 5px; 
+}
+nav a:hover{
+    background-color: #051d2a;
+}
+ul{
+    list-style: none;
+}
+.rrss{
+      color: #003C5C;
+}
+.flex{
+    display: flex;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.centro{
+    text-align: center;
+}
+.centrar{
+    align-items: center;
+}
+.contenedor{
+    width: 90%;
+    margin: 20px auto;
+}
+
+.col-12, .col-3, .col-4, .col-8{
+    width: 100%;
+    padding: 10px;
+}
+
+/* // Small devices (landscape phones, 576px and up)  */
+@media (min-width: 576px) {
+
+} 
+
+/* // Medium devices (tablets, 768px and up)  */
+@media (min-width: 768px) {
+    nav a{
+        background-color: #003C5C;
+        color: white;
+        padding: 5px;
+        display: inline-block;
+        margin: 5px; 
+    }
+    .col-3{
+        width: 50%;
+    }
+
+} 
+
+/* // Large devices (desktops, 992px and up)  */
+@media (min-width: 992px) {
+    nav a{
+        background-color: #003C5C;
+        color: white;
+        padding: 5px;
+        display: inline-block;
+        margin: 5px; 
+    }
+    .col-3{
+        width: 50%;
+    }
+    .col-4{
+        width: 50%;
+    }
+    .col-8{
+        width: 50%;
+    }
+
+} 
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    nav{
+        text-align: end;
+    }
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}
